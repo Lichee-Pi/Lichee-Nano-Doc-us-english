@@ -1,0 +1,1 @@
+Search.setIndex({docnames:["index"],envversion:52,filenames:["index.rst"],objects:{},objnames:{},objtypes:{},terms:{index:0,modul:0,page:0,search:0},titles:["Welcome to \u8354\u679d\u6d3eNano \u5168\u6d41\u7a0b\u6307\u5357\u2019s documentation!"],titleterms:{"\u5168\u6d41\u7a0b\u6307\u5357":0,"\u8354\u679d\u6d3enano":0,document:0,indic:0,tabl:0,welcom:0}})
