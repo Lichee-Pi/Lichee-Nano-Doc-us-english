@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Welcome to 荔枝派Nano 全流程指南’s documentation! &mdash; 荔枝派Nano 全流程指南  documentation</title>
+  <title>荔枝派Nano 全流程指南 &mdash; 荔枝派Nano 全流程指南  documentation</title>
   
 
   
@@ -37,7 +37,8 @@
         <link rel="index" title="Index"
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="荔枝派Nano 全流程指南  documentation" href="#"/> 
+    <link rel="top" title="荔枝派Nano 全流程指南  documentation" href="#"/>
+        <link rel="next" title="初见" href="get_started/first_eye.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -89,12 +90,17 @@
               
             
             
-              <!-- Local TOC -->
-              <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Welcome to 荔枝派Nano 全流程指南’s documentation!</a></li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+              <p class="caption"><span class="caption-text">上手体验篇</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="get_started/first_eye.html">初见</a></li>
+<li class="toctree-l1"><a class="reference internal" href="get_started/first_eat.html">即食</a></li>
 </ul>
-</div>
+<p class="caption"><span class="caption-text">贡献投稿篇</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="contribution/introduction.html">前言</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contribution/build_doc.html">文档构建</a></li>
+</ul>
+
             
           
         </div>
@@ -137,7 +143,7 @@
     
       <li><a href="#">Docs</a> &raquo;</li>
         
-      <li>Welcome to 荔枝派Nano 全流程指南’s documentation!</li>
+      <li>荔枝派Nano 全流程指南</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -154,18 +160,84 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="welcome-to-nano-s-documentation">
-<h1>Welcome to 荔枝派Nano 全流程指南’s documentation!<a class="headerlink" href="#welcome-to-nano-s-documentation" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
+  <div class="section" id="nano">
+<h1>荔枝派Nano 全流程指南<a class="headerlink" href="#nano" title="Permalink to this headline">¶</a></h1>
+<p>荔枝派 Nano，开启你的极客之心。这是一款仅有2.54cmX3.3cm大小的精致小板，相当于一张SD卡大小，只要您愿意，即可将一颗极客芯随身携带。</p>
+<div class="figure align-center" id="id2">
+<a class="reference internal image-reference" href="http://odfef978i.bkt.clouddn.com/DSC_0455.png"><img alt="http://odfef978i.bkt.clouddn.com/DSC_0455.png" src="http://odfef978i.bkt.clouddn.com/DSC_0455.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">实物图</span></p>
 </div>
+<div class="figure align-center" id="id3">
+<a class="reference internal image-reference" href="http://odfef978i.bkt.clouddn.com/DSC_0459-min%20%281%29.JPG"><img alt="http://odfef978i.bkt.clouddn.com/DSC_0459-min%20%281%29.JPG" src="http://odfef978i.bkt.clouddn.com/DSC_0459-min%20%281%29.JPG" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">与SD卡对比</span></p>
 </div>
-<div class="section" id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<p>荔枝派Nano以不可能的价格，提供了尽可能的能力：</p>
 <ul class="simple">
-<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
-<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
-<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
+<li>3 X TWI</li>
+<li>2 X SPI</li>
+<li>3 X UART</li>
+<li>SDIO</li>
+<li>USB OTG</li>
+<li>JTAG</li>
+<li>KEYADC</li>
+<li>RTP</li>
+<li>IR</li>
+<li>OWA out</li>
 </ul>
+<p>这些它都能轻松应对，更何况它还支持：</p>
+<ul class="simple">
+<li>CSI Camera</li>
+<li>Full HD Video Engine（H.264,H.263,JPEG/MJPEG,etc.）</li>
+<li>RGB LCD Interface</li>
+<li>CVBS Input/Output</li>
+<li>Audio Codec</li>
+<li>I2S/PCM</li>
+<li>SD/eMMc</li>
+</ul>
+<p>这都得益于荔枝派Nano的主芯片—全志F1C100s；Arm9架构，16KB D-Cache，32KB I-Cache，支持从SPI Flash或TF卡启动，支持USB OTG载入更新。</p>
+<p>荔枝派 Nano 延续了前一代的巧妙设计，2.54mm普通插针焊孔+1.27mm邮票孔贴片设计，方便您自己动手DIY的同时，也支持贴片生产，制作更为复杂的应用。</p>
+<div class="figure align-center" id="id4">
+<a class="reference internal image-reference" href="http://odfef978i.bkt.clouddn.com/Pin%20Map.png"><img alt="http://odfef978i.bkt.clouddn.com/Pin%20Map.png" src="http://odfef978i.bkt.clouddn.com/Pin%20Map.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">Pin Map</span></p>
+</div>
+<p>此外，荔枝派自从初代One以来，不断适配外设，已有TF-Wifi、RGB to VGA、40 pin RGB、 LCD、RGB to GPIO、Camera等经过广泛实践验证过的成熟模块。</p>
+<div class="figure align-center" id="id5">
+<a class="reference internal image-reference" href="http://odfef978i.bkt.clouddn.com/module.png"><img alt="http://odfef978i.bkt.clouddn.com/module.png" src="http://odfef978i.bkt.clouddn.com/module.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">部分模块</span></p>
+</div>
+<p>荔枝派 Nano现已获得RT-Thread的官方支持，您可应用RT-Thread丰富的生态资源，快速高效地进行原型设计；</p>
+<p>荔枝派提倡开发者协同开发，即将推出有偿外设驱动适配任务，以及提供快餐式外包项目，欢迎各位技术大神为开发者们贡献技术力量！</p>
+<p>欢迎各位加入 <a class="reference external" href="https://jq.qq.com/?_wv=1027&amp;k=5qc9P07">荔枝派交流群</a> 573832310 。</p>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">上手体验篇</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="get_started/first_eye.html">初见</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="get_started/first_eye.html#id3">从硬件说起</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get_started/first_eye.html#id4">说点软的</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get_started/first_eye.html#id5">用到哪去</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="get_started/first_eat.html">即食</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="get_started/first_eat.html#id3">新鲜入坑</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get_started/first_eat.html#id4">拒绝挣扎</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get_started/first_eat.html#id5">爬坑记录</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">贡献投稿篇</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="contribution/introduction.html">前言</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contribution/build_doc.html">文档构建</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="contribution/build_doc.html#id3">本地构建</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contribution/build_doc.html#id7">技术文档贡献</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contribution/build_doc.html#restructuredtext">以reStructuredText编写文档</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contribution/build_doc.html#markdown">以Markdown编写文档</a></li>
+</ul>
+</li>
+</ul>
+</div>
 </div>
 
 
@@ -175,6 +247,13 @@
            </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="get_started/first_eye.html" class="btn btn-neutral float-right" title="初见" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
   
 
   <hr/>
