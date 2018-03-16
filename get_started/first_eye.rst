@@ -29,6 +29,8 @@ Nano 手册资料
 
     百度云盘： https://pan.baidu.com/s/1rajyI3E
 
+    原理图：http://odfef978i.bkt.clouddn.com/Lichee_nano.pdf
+
     RT-Thread SDK : https://github.com/RT-Thread/rt-thread
 
 

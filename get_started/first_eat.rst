@@ -280,7 +280,7 @@ RTT 初体验
 
 此处我们进行 RTT固件 的编译尝试；
 
-RTT官方已经给出由 `uestczyh222<mailto:lymz@foxmail.com>`_ 所维护的 Nano 固件 `详细的编译、烧录过程 <https://github.com/RT-Thread/rt-thread/edit/master/bsp/allwinner_tina/README.md>`_，搬运至此：
+RTT官方已经给出由 `uestczyh222 <mailto:lymz@foxmail.com>`_ 所维护的 Nano 固件 `详细的编译、烧录过程 <https://github.com/RT-Thread/rt-thread/edit/master/bsp/allwinner_tina/README.md>`_，搬运至此：
 
 编译说明
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
