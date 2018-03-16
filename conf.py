@@ -112,6 +112,10 @@ html_logo = u'_static/icon/icon2.png'
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
+html_theme_options = {
+    'display_version': False,
+}
+
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'Nanodoc'
 

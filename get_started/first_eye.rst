@@ -28,6 +28,7 @@ Nano 手册资料
 国内下载： 
 
     百度云盘： https://pan.baidu.com/s/1rajyI3E
+
     RT-Thread SDK : https://github.com/RT-Thread/rt-thread
 
 
@@ -43,6 +44,10 @@ Nano 管教定义
 说点软的
 ------------------------
 
+荔枝派 Nano支持多个系统，可自由使用Linux、RT-Thread、Xboot或裸机等进行操作。
+
+荔枝派 Nano支持从SPI Flash中启动系统
+
 用到哪去
 ------------------------
 
@@ -55,5 +60,5 @@ Nano 管教定义
 - 高端极客玩家，在体积、性能、易用性 上取得平衡。
 - 入门级玩家，软件工程师，使用熟悉的语言进行硬件diy。
 
-荔枝派Nano 可以做的，还有：
+荔枝派Nano 可以做的，比如还有：
 
