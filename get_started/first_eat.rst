@@ -74,7 +74,7 @@ u-boot 对于新手来说目录层级稍显复杂，您可参考下表进行快�
     │   │   │   │   └──sunxi   //cpu相关的一些操作，如定时器读取
     │   │   │   │   │   └──u-boot-spl.lds  //spl的放置方法
     │   │   └──dts  
-    │   │   │   └──suniv-f1c100s-licheepi-nano.dts   //sun5i系列芯片的一些配置
+    │   │   │   └──suniv-f1c100s-licheepi-nano.dts   // f1c100s芯片的一些配置
     │   │   │   └──suniv-f1c100s-licheepi-nano.dtb
     │   │   │   └──suniv-f1c100s.dtsi
     │   │   │   └──suniv.dtsi
@@ -89,7 +89,7 @@ u-boot 对于新手来说目录层级稍显复杂，您可参考下表进行快�
     │   │   └──dram_suniv.c        //DRAM的一些默认参数
     ├── cmd             //Uboot命令行的一些命令
     ├── common          //含spl
-    ├── configs         //menuconfig里的默认配置,比如dcdc的各路电压
+    ├── configs         //menuconfig里的默认配置,比如各类驱动适配
     │   ├── licheepi_nano_defconfig
     │   ├── licheepi_nano_spiflash_defconfig
     ├── disk            //硬盘分区的驱动
@@ -167,7 +167,7 @@ u-boot 对于新手来说目录层级稍显复杂，您可参考下表进行快�
 
 新到的一片 Nano ，基本上是上电无反应的，LCD亮但无内容，此时 Nano 自动进入fel下载模式，可以通过命令 ``sudo sunxi-fel ver`` 来确认有无成功进入fel模式。
 
-此时有两种方式：
+此时有两种方式进行程序下载：
 
 .. code-block:: bash
 
@@ -176,7 +176,7 @@ u-boot 对于新手来说目录层级稍显复杂，您可参考下表进行快�
 
    # 2.烧进 spi-flash （开机自启）
    sunxi-fel -p spiflash-write 0 /your/path/to/u-boot-sunxi-with-spl.bin
-   # note: 重新烧录或重进fel模式时，请在上电时拉低CS引脚
+   # note: 重新烧录或重进fel模式时，请在上电时拉低SPI flash 的 CS引脚
 
 下载结束后，即可看到串口输出信息，LCD显示图标与简单信息。
 
@@ -206,8 +206,12 @@ u-boot 对于新手来说目录层级稍显复杂，您可参考下表进行快�
 Xboot 初体验
 -----------------------------
 
+xboot秉持一次编写到处运行的理念，集成各类驱动支持，支持lua虚拟机，是一款优秀的bootloader；
 
-无需额外配置直接上手！
+xboot无需额外配置直接上手！
+
+.. note:: 请到 `xboot <https://github.com/xboot>` 下载README中给出的官方交叉编译器；请下载5.3.1版本，其5.3.0版本貌似不支持软浮点配置命令。
+
 
 .. code-block:: bash
 
@@ -236,9 +240,9 @@ Xboot 初体验
 ::
 
         _                   _                                                    
-    _  _ | |___ _____ _____ _| |_                                                  
+     _  _ | |___ _____ _____ _| |_                                                  
     \ \/ /|  _  |  _  |  _  |_   _|  (C) 2007-2018                                  
-    )  ( | |_| | |_| | |_| | | |____JIANJUN.JIANG__                                
+     )  ( | |_| | |_| | |_| | | |____JIANJUN.JIANG__                                
     /_/\_\|_____|_____|_____| |_____________________|  
     
     .
@@ -249,7 +253,7 @@ Xboot 初体验
 
     xboot: /$
 
-.. tip:: 进入命令行后输入地址 /application/examples 有xboot的小惊喜~
+.. tip:: 进入命令行后输入地址 /application/examples 将启动lua虚拟机运行Demo，可以算是xboot的酷炫小惊喜~
 
 
 RTT 初体验
@@ -379,3 +383,13 @@ PC操作系统         Linux/MacOS
     ahb_get_clk:200000000
     apb_get_clk:100000000
     msh />
+
+
+开箱常见问题&结语
+-------------------------------
+
+.. caution:: 问题待收集...
+
+如您有任何疑问，或有想要荔枝派提供某个方面的教程，请在下方评论区留言；
+
+荔枝派2000人QQ交流大群：5738323100
