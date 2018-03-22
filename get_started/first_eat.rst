@@ -114,6 +114,8 @@ u-boot 对于新手来说目录层级稍显复杂，您可参考下表进行快�
    # 此处告知make采用arm-linux-gnueabihf下的所有交叉编译工具，目标架构为Arm，设定各项默认配置为 nano 的spiflash支持版
    make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- licheepi_nano_spiflash_defconfig
 
+   # 若不带spi-flash的板子，请换成 licheepi_nano_defconfig
+
    # 进行可视化配置
    make ARCH=arm menuconfig
 
@@ -139,7 +141,7 @@ u-boot 对于新手来说目录层级稍显复杂，您可参考下表进行快�
 .. code-block:: bash
 
    # 开始编译
-   make make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -j8
+   make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -j8
 
 编译完成后，可一看到目录下多了一堆以u-boot带头的文件，我们只需取 **u-boot-sunxi-with-spl.bin** 即可；
 
@@ -393,3 +395,5 @@ PC操作系统         Linux/MacOS
 如您有任何疑问，或有想要荔枝派提供某个方面的教程，请在下方评论区留言；
 
 荔枝派2000人QQ交流大群：5738323100
+
+荔枝派Telegram电报群：`Lichee Pi <https://t.me/joinchat/HH5CKkoLTnnxtdIl2U1Psg>`_

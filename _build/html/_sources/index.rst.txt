@@ -65,7 +65,7 @@
  
 荔枝派提倡开发者协同开发，即将推出有偿外设驱动适配任务，以及提供快餐式外包项目，欢迎各位技术大神为开发者们贡献技术力量！
  
-欢迎各位加入 `荔枝派交流群 <https://jq.qq.com/?_wv=1027&k=5qc9P07>`_ 573832310 。
+欢迎各位加入 `荔枝派交流群573832310 <https://jq.qq.com/?_wv=1027&k=5qc9P07>`_ | `荔枝派Telegram电报群 <https://t.me/joinchat/HH5CKkoLTnnxtdIl2U1Psg>`_。
 
 .. toctree::
    :maxdepth: 2
@@ -81,5 +81,7 @@
 
    前言 <contribution/introduction>
    Todolist <contribution/todolist>
+   快餐任务相关小事项 <contribution/task_tips>
+   文档任务相关小事项 <contribution/doc_tips>
    文档构建 <contribution/build_doc>
 

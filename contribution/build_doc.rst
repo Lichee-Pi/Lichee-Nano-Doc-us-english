@@ -11,9 +11,16 @@
 1. 拉取文档
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-打开终端，运行以下命令:
+若您是阅读者：
 
-   ``git clone https://github.com/Lichee-Pi/xxx.git``
+    打开终端，运行以下命令:
+
+        ``git clone https://github.com/Lichee-Pi/xxx.git``
+
+若您是文档贡献者：
+
+    建议您 fork 我们github上的文档项目后拉取到本地，便于发起 Pull Request。
+
 
 2. 安装依赖
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
