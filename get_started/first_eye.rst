@@ -19,6 +19,11 @@ Nano 延续并发展了Zero精巧的PCB设计，使得开发和使用非常方�
 Nano 实物图
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. figure:: http://odfef978i.bkt.clouddn.com/thething.png
+   :width: 500px
+   :align: center
+
+   Nano 实物图
 
 
 Nano 硬件参数
