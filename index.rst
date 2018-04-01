@@ -72,7 +72,7 @@
 欢迎各位加入 `荔枝派交流群573832310 <https://jq.qq.com/?_wv=1027&k=5qc9P07>`_ | `荔枝派Telegram电报群 <https://t.me/joinchat/HH5CKkoLTnnxtdIl2U1Psg>`_。
 
 .. figure:: http://odfef978i.bkt.clouddn.com/QQ_Group.jpg
-   :width: 500px
+   :width: 250px
    :align: center
 
 .. toctree::
