@@ -30,7 +30,7 @@ Nano 实物图集
    :align: center
 
    Nano 包装
-。
+
 .. figure:: https://img.alicdn.com/imgextra/i3/272610009/TB2svAfhQCWBuNjy0FaXXXUlXXa_!!272610009.jpg
    :width: 500px
    :align: center
@@ -91,7 +91,7 @@ Nano 硬件参数
     - 存储温度 -40~125℃，运行温度 -20~70℃
 
 发热情况
-    .. figure:: https://img.alicdn.com/imgextra/i4/272610009/TB29Aj_hH1YBuNjSszhXXcUsFXa_!!272610009.jpg
+    .. figure:: https://img.alicdn.com/imgextra/i1/272610009/TB2bXXgh9tYBeNjSspaXXaOOFXa_!!272610009.jpg
         :width: 500px
         :align: center
 
