@@ -16,7 +16,7 @@ Nano 延续并发展了Zero精巧的PCB设计，使得开发和使用非常方�
 #. 可配合使用使用堆叠式的WiFi 模块联网
 #. 可直接贴片
 
-Nano 实物图
+Nano 实物图集
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: http://odfef978i.bkt.clouddn.com/thething.png
@@ -24,6 +24,30 @@ Nano 实物图
    :align: center
 
    Nano 实物图
+
+.. figure:: https://img.alicdn.com/imgextra/i2/272610009/TB2ZC3ehH9YBuNjy0FgXXcxcXXa_!!272610009.jpg
+   :width: 500px
+   :align: center
+
+   Nano 包装
+。
+.. figure:: https://img.alicdn.com/imgextra/i3/272610009/TB2svAfhQCWBuNjy0FaXXXUlXXa_!!272610009.jpg
+   :width: 500px
+   :align: center
+
+   tf版 与 wifi版 Nano 对比
+
+.. figure:: https://img.alicdn.com/imgextra/i4/272610009/TB2L22ihQKWBuNjy1zjXXcOypXa_!!272610009.png
+   :width: 500px
+   :align: center
+
+   Nano 底板正面图
+
+.. figure:: https://img.alicdn.com/imgextra/i1/272610009/TB2NigshNGYBuNjy0FnXXX5lpXa_!!272610009.png
+   :width: 500px
+   :align: center
+
+   Nano 底板正面图
 
 
 Nano 硬件参数
@@ -33,7 +57,7 @@ Nano 硬件参数
     CPU： 全志 F1C100s， ARM 926EJS , 最高 900MHz
 
 内存： 
-    - 集成32MB DDR2
+    - 集成32MB DDR
 
 存储：
     - 预留SOP8 SPI Flash焊盘（可定制贴片8~32MB SPI Nor Flash）;
@@ -42,8 +66,8 @@ Nano 硬件参数
 显示：
     - 通用 40P RGB LCD FPC座
     - 可直插常见的40P 4.3/5/7寸屏幕（板载背光驱动），通过转接板可插50P 7/9寸屏
-    - 支持常见的272x480, 480x800,1024x600等分辨率
-    - 板载电阻式触摸屏芯片，支持电阻屏
+    - 支持常见的272x480, 480x800, 1024x600等分辨率
+    - 板载电阻式触摸屏芯片，另配合底板可适配电容触摸屏
     - 支持 720P 视频输出
     - 支持 H.264 / MPEG 等视频流解码
 
@@ -66,12 +90,19 @@ Nano 硬件参数
     - 900MHz linux空载运行电流 54mA， 带屏运行电流 ~250mA
     - 存储温度 -40~125℃，运行温度 -20~70℃
 
+发热情况
+    .. figure:: https://img.alicdn.com/imgextra/i4/272610009/TB29Aj_hH1YBuNjSszhXXcUsFXa_!!272610009.jpg
+        :width: 500px
+        :align: center
+
+        运行linux压力测试时候的温度，仅稍高于体温，摸着温手不烫手
+
 Nano 手册资料
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 国内下载： 
 
-    百度云盘： https://pan.baidu.com/s/1rajyI3E
+    百度云盘： https://pan.baidu.com/s/1smzuGS9
 
     原理图：http://odfef978i.bkt.clouddn.com/Lichee_nano.pdf
 
@@ -99,19 +130,19 @@ Nano 的管教定义，可由下图简略说明：
 
 荔枝派Nano 支持多个系统，可自由使用Linux、RT-Thread、Xboot或裸机等进行操作。
 
-.. figure:: http://xxxxx-wait-to-add.photo
+.. figure:: https://img.alicdn.com/imgextra/i4/272610009/TB29Aj_hH1YBuNjSszhXXcUsFXa_!!272610009.jpg
    :width: 500px
    :align: center
 
-   linux 示例
+   linux 下运行 littlevgl Demo
 
-.. figure:: http://xxxxx-wait-to-add.photo
+.. figure:: https://img.alicdn.com/imgextra/i3/272610009/TB274cjbY3nBKNjSZFMXXaUSFXa_!!272610009.jpg
    :width: 500px
    :align: center
 
-   RT-Thread 示例
+   RT-Thread UI 示例
 
-.. figure:: http://xxxxx-wait-to-add.photo
+.. figure:: https://img.alicdn.com/imgextra/i4/272610009/TB2D2Y7hH1YBuNjSszhXXcUsFXa_!!272610009.jpg
    :width: 500px
    :align: center
 
@@ -131,28 +162,6 @@ Nano 的管教定义，可由下图简略说明：
 - 高端极客玩家，在体积、性能、易用性 上取得平衡。
 - 入门级玩家，软件工程师，使用熟悉的语言进行硬件diy。
 
-荔枝派Nano 可以做的，比如还有：
-
-.. figure:: http://xxxxx-wait-to-add.photo
-   :width: 500px
-   :align: center
-  
-   经典GB游戏再现
-
-.. figure:: http://xxxxx-wait-to-add.photo
-   :width: 500px
-   :align: center
-  
-   各类脚本轻松开发
-
-.. figure:: http://xxxxx-wait-to-add.photo
-   :width: 500px
-   :align: center
-  
-   驱动编写学习
-
-再比如说～车载MP5、虚拟无线电、视效收音机、移动卡拉ok 以及 唱戏机！ :-D
-
 **上手小说明**
 --------------------------
 
@@ -163,3 +172,7 @@ Nano 的管教定义，可由下图简略说明：
 - 如果您有什么疑问，请先翻阅一下对应文档下方的评论区，再联系我们或在评论区下记录您的疑惑，然后等待我们的回复；之后我们也会挑选出具有代表性的问题，在下一节汇总撰写这些问题的解决方法
 
 如果收到板子后还有其他疑问，请在 **官方交流QQ群：573832310** 求助吐槽 或在 `荔枝派Telegram电报群 <https://t.me/joinchat/HH5CKkoLTnnxtdIl2U1Psg>`_ 讨论技术与获取资讯，感谢。
+
+.. figure:: http://odfef978i.bkt.clouddn.com/QQ_Group.jpg
+   :width: 500px
+   :align: center
