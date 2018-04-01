@@ -1,12 +1,7 @@
-.. 荔枝派Nano 全流程指南 documentation master file, created by
-   sphinx-quickstart on Tue Mar 13 09:35:41 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 荔枝派Nano 全流程指南
 =================================================
 
-荔枝派 Nano，开启你的极客之心。这是一款仅有2.54cmX3.3cm大小的精致小板，相当于一张SD卡大小，只要您愿意，即可将一颗极客芯随身携带。
+荔枝派 Nano，开启你的极客之心。这是一款仅有2.54cm X 3.3cm大小的精致小板，相当于一张SD卡大小，只要您愿意，即可将一颗极客芯随身携带。
  
 .. figure:: http://odfef978i.bkt.clouddn.com/DSC_0455.png
   :width: 500px
@@ -47,6 +42,7 @@
  
 荔枝派 Nano 延续了前一代的巧妙设计，2.54mm普通插针焊孔+1.27mm邮票孔贴片设计，方便您自己动手DIY的同时，也支持贴片生产，制作更为复杂的应用。
 
+
 .. figure:: http://odfef978i.bkt.clouddn.com/Pin%20Map.png
   :width: 500px
   :align: center
@@ -60,12 +56,24 @@
   :align: center
   
   部分模块
+
+荔枝派Nano 现已可选 TF版 与 wifi版：
+
+.. figure:: https://img.alicdn.com/imgextra/i4/272610009/TB2L22ihQKWBuNjy1zjXXcOypXa_!!272610009.png
+  :width: 500px
+  :align: center
+  
+  对比图
  
 荔枝派 Nano现已获得RT-Thread的官方支持，您可应用RT-Thread丰富的生态资源，快速高效地进行原型设计；
  
 荔枝派提倡开发者协同开发，即将推出有偿外设驱动适配任务，以及提供快餐式外包项目，欢迎各位技术大神为开发者们贡献技术力量！
  
 欢迎各位加入 `荔枝派交流群573832310 <https://jq.qq.com/?_wv=1027&k=5qc9P07>`_ | `荔枝派Telegram电报群 <https://t.me/joinchat/HH5CKkoLTnnxtdIl2U1Psg>`_。
+
+.. figure:: http://odfef978i.bkt.clouddn.com/QQ_Group.jpg
+   :width: 500px
+   :align: center
 
 .. toctree::
    :maxdepth: 2
