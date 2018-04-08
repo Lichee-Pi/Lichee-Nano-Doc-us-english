@@ -92,6 +92,14 @@
 <li class="toctree-l1"><a class="reference internal" href="get_started/first_eye.html">初见</a></li>
 <li class="toctree-l1"><a class="reference internal" href="get_started/first_eat.html">即食</a></li>
 </ul>
+<p class="caption"><span class="caption-text">系统适配篇</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="build_sys/build_index.html">总述</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build_sys/bootargs.html">uboot传递参数</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build_sys/kernel.html">主线Linux编译</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build_sys/devicetree.html">设备树添加节点</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build_sys/rootfs.html">根文件系统编译</a></li>
+</ul>
 <p class="caption"><span class="caption-text">贡献投稿篇</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="contribution/introduction.html">前言</a></li>
@@ -162,7 +170,7 @@
             
   <div class="section" id="nano">
 <h1>荔枝派Nano 全流程指南<a class="headerlink" href="#nano" title="Permalink to this headline">¶</a></h1>
-<p>荔枝派 Nano，开启你的极客之心。这是一款仅有2.54cmX3.3cm大小的精致小板，相当于一张SD卡大小，只要您愿意，即可将一颗极客芯随身携带。</p>
+<p>荔枝派 Nano，开启你的极客之心。这是一款仅有2.54cm X 3.3cm大小的精致小板，相当于一张SD卡大小，只要您愿意，即可将一颗极客芯随身携带。</p>
 <div class="figure align-center" id="id2">
 <a class="reference internal image-reference" href="http://odfef978i.bkt.clouddn.com/DSC_0455.png"><img alt="http://odfef978i.bkt.clouddn.com/DSC_0455.png" src="http://odfef978i.bkt.clouddn.com/DSC_0455.png" style="width: 500px;" /></a>
 <p class="caption"><span class="caption-text">实物图</span></p>
@@ -205,9 +213,17 @@
 <a class="reference internal image-reference" href="http://odfef978i.bkt.clouddn.com/module.png"><img alt="http://odfef978i.bkt.clouddn.com/module.png" src="http://odfef978i.bkt.clouddn.com/module.png" style="width: 500px;" /></a>
 <p class="caption"><span class="caption-text">部分模块</span></p>
 </div>
+<p>荔枝派Nano 现已可选 TF版 与 wifi版：</p>
+<div class="figure align-center" id="id6">
+<a class="reference internal image-reference" href="https://img.alicdn.com/imgextra/i4/272610009/TB2L22ihQKWBuNjy1zjXXcOypXa_!!272610009.png"><img alt="https://img.alicdn.com/imgextra/i4/272610009/TB2L22ihQKWBuNjy1zjXXcOypXa_!!272610009.png" src="https://img.alicdn.com/imgextra/i4/272610009/TB2L22ihQKWBuNjy1zjXXcOypXa_!!272610009.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">对比图</span></p>
+</div>
 <p>荔枝派 Nano现已获得RT-Thread的官方支持，您可应用RT-Thread丰富的生态资源，快速高效地进行原型设计；</p>
 <p>荔枝派提倡开发者协同开发，即将推出有偿外设驱动适配任务，以及提供快餐式外包项目，欢迎各位技术大神为开发者们贡献技术力量！</p>
 <p>欢迎各位加入 <a class="reference external" href="https://jq.qq.com/?_wv=1027&amp;k=5qc9P07">荔枝派交流群573832310</a> | <a class="reference external" href="https://t.me/joinchat/HH5CKkoLTnnxtdIl2U1Psg">荔枝派Telegram电报群</a>。</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="http://odfef978i.bkt.clouddn.com/QQ_Group.jpg"><img alt="http://odfef978i.bkt.clouddn.com/QQ_Group.jpg" src="http://odfef978i.bkt.clouddn.com/QQ_Group.jpg" style="width: 250px;" /></a>
+</div>
 <div class="toctree-wrapper compound">
 <p class="caption"><span class="caption-text">上手体验篇</span></p>
 <ul>
@@ -224,6 +240,38 @@
 <li class="toctree-l2"><a class="reference internal" href="get_started/first_eat.html#xboot">Xboot 初体验</a></li>
 <li class="toctree-l2"><a class="reference internal" href="get_started/first_eat.html#rtt">RTT 初体验</a></li>
 <li class="toctree-l2"><a class="reference internal" href="get_started/first_eat.html#id10">开箱常见问题&amp;结语</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">系统适配篇</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="build_sys/build_index.html">总述</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="build_sys/build_index.html#id1">在TF卡上构建系统</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="build_sys/bootargs.html">uboot传递参数</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="build_sys/bootargs.html#id2">再探 Uboot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build_sys/bootargs.html#boot-cmd">建立 boot.cmd 并确认参数</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build_sys/bootargs.html#boot-scr">生成 boot.scr</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="build_sys/kernel.html">主线Linux编译</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="build_sys/kernel.html#id2">源码下载</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build_sys/kernel.html#id3">配置</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build_sys/kernel.html#id4">进行编译</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="build_sys/devicetree.html">设备树添加节点</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="build_sys/devicetree.html#nano">Nano 设备树简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build_sys/devicetree.html#lcd">修改设备树中 LCD 配置</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build_sys/devicetree.html#id5">添加电容触摸屏的支持</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build_sys/devicetree.html#dtb">编译生成 dtb文件</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="build_sys/rootfs.html">根文件系统编译</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="build_sys/rootfs.html#buildroot">使用buildroot构建根文件系统</a></li>
 </ul>
 </li>
 </ul>

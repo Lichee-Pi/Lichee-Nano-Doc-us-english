@@ -82,6 +82,15 @@
    初见 <get_started/first_eye>
    即食 <get_started/first_eat>
 
+.. toctree::
+   :maxdepth: 2
+   :caption: 系统适配篇
+
+   总述 <build_sys/build_index>
+   uboot传递参数 <build_sys/bootargs>
+   主线Linux编译 <build_sys/kernel>
+   设备树添加节点 <build_sys/devicetree>
+   根文件系统编译 <build_sys/rootfs>
 
 .. toctree::
    :maxdepth: 2

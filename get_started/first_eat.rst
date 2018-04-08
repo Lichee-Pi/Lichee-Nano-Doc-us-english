@@ -29,21 +29,21 @@ u-boot 初体验
 .. code-block:: bash
 
    # 此处为获取7.2.1版本，您可获取其他版本或者通过链接直接下载
-   wget http://releases.linaro.org/components/toolchain/binaries/latest/arm-linux-gnueabihf/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf.tar.xz
+   wget http://releases.linaro.org/components/toolchain/binaries/7.2-2017.11/arm-linux-gnueabi/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi.tar.xz
    
-   tar -xf gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf.tar.xz
-   sudo cp ./gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf.tar.xz /opt/
+   tar -xzf gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi.tar.xz
+   sudo cp -r ./gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi /opt/
 
    sudo vim /etc/bash.bashrc
 
    # 在文件末尾 添加以下内容
-   PATH="$PATH:/opt/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/bin"
+   PATH="$PATH:/opt/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin"
    # 添加完毕
 
    # 使路径生效
    source /etc/bash.bashrc
 
-此时可用 ``arm-linux-gnueabihf-gcc -v`` 进行测试；若普通用户状态下没有成功，通过 ``sudo su`` 切换到root用户再尝试；
+此时可用 ``arm-linux-gnueabi-gcc -v`` 进行测试；若普通用户状态下没有成功，通过 ``sudo su`` 切换到root用户再尝试；
 
 编译 u-boot 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -111,8 +111,8 @@ u-boot 对于新手来说目录层级稍显复杂，您可参考下表进行快�
 
 .. code-block:: bash
 
-   # 此处告知make采用arm-linux-gnueabihf下的所有交叉编译工具，目标架构为Arm，设定各项默认配置为 nano 的spiflash支持版
-   make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- licheepi_nano_spiflash_defconfig
+   # 此处告知make采用arm-linux-gnueabi下的所有交叉编译工具，目标架构为Arm，设定各项默认配置为 nano 的spiflash支持版
+   make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- licheepi_nano_spiflash_defconfig
 
    # 若不带spi-flash的板子，请换成 licheepi_nano_defconfig
 
@@ -141,7 +141,7 @@ u-boot 对于新手来说目录层级稍显复杂，您可参考下表进行快�
 .. code-block:: bash
 
    # 开始编译
-   make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -j8
+   make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- -j8
 
 编译完成后，可一看到目录下多了一堆以u-boot带头的文件，我们只需取 **u-boot-sunxi-with-spl.bin** 即可；
 
@@ -292,7 +292,7 @@ RTT官方已经给出由 `uestczyh222 <mailto:lymz@foxmail.com>`_ 所维护的 N
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 =============  ===========================================================
-环境             B       
+环境                        说明       
 =============  ===========================================================
 PC操作系统         Linux/MacOS
 编译器             arm-none-eabi-gcc version 6.3.1 20170620 (release)
