@@ -54,7 +54,7 @@ docker下载安装
 安装荔枝派开发镜像
 -----------------------------------------
 
-首先通过百度网盘下载 docker镜像（正在上传） ；
+首先通过百度网盘下载 `docker镜像 <https://pan.baidu.com/s/1aYcGfzyz-g4CbxGSsVREGQ>`_ ；
 
 再将镜像加载到 docker：
 
