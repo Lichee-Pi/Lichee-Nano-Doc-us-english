@@ -33,9 +33,11 @@ git拉取有时速度很慢，建议做如下配置：
 进行编译 
 --------------------------------
 
+.. tip:: 编译工具链为 arm-linux-gnueabi，工具链的安装请参考 uboot 编译部分
+
 .. code-block:: bash
 
     make ARCH=arm menuconfig
-    make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- -j8
+    make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- -j4    #请自行修改编译线程数
 
 生成的 zImage 在 :menuselection:`arch --> arm --> boot` 目录下；将其放入第一分区。

@@ -152,7 +152,7 @@ Markdown语句较为简明，互联网上也有大量的辅助工具与教程；
 
         请将其标为代码片段，代码类型为： **eval_rst**，sphinx将会将此片段作为rst文本进行解析：
 
-        .. code-block:: markdown
+        ::
 
             ```eval_rst
 

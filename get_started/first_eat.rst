@@ -212,7 +212,7 @@ xboot秉持一次编写到处运行的理念，集成各类驱动支持，支持
 
 xboot无需额外配置直接上手！
 
-.. note:: 请到 `xboot <https://github.com/xboot>` 下载README中给出的官方交叉编译器；请下载5.3.1版本，其5.3.0版本貌似不支持软浮点配置命令。
+.. note:: 请到 `xboot <https://github.com/xboot>_` 下载README中给出的官方交叉编译器；请下载5.3.1版本，其5.3.0版本貌似不支持软浮点配置命令。
 
 
 .. code-block:: bash
@@ -286,7 +286,7 @@ RTT 初体验
 
 此处我们进行 RTT固件 的编译尝试；
 
-RTT官方已经给出由 `uestczyh222 <mailto:lymz@foxmail.com>`_ 所维护的 Nano 固件 `详细的编译、烧录过程 <https://github.com/RT-Thread/rt-thread/edit/master/bsp/allwinner_tina/README.md>`_，搬运至此：
+RTT官方已经给出由 `uestczyh222 <mailto:lymz@foxmail.com>`_ 所维护的 Nano 固件 `详细的编译、烧录过程 <https://github.com/RT-Thread/rt-thread/blob/master/bsp/allwinner_tina/README.md>`_，搬运至此：
 
 编译说明
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

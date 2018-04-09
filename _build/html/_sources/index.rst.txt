@@ -87,10 +87,24 @@
    :caption: 系统适配篇
 
    总述 <build_sys/build_index>
+   docker快速搭建环境 <build_sys/docker>
    uboot传递参数 <build_sys/bootargs>
    主线Linux编译 <build_sys/kernel>
    设备树添加节点 <build_sys/devicetree>
    根文件系统编译 <build_sys/rootfs>
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 驱动开发篇
+
+   电容触摸屏适配 <driver/touchscreen>
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 应用开发篇
+
+   一起来点灯 <application/blink>
+   littlevGL的使用 <application/littlevgl>
 
 .. toctree::
    :maxdepth: 2
@@ -101,4 +115,3 @@
    快餐任务相关小事项 <contribution/task_tips>
    文档任务相关小事项 <contribution/doc_tips>
    文档构建 <contribution/build_doc>
-

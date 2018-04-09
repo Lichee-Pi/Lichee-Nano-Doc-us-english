@@ -14,7 +14,7 @@ Nano的设备树在源码的 :menuselection:`linux --> arch --> arm --> boot -->
     - &xxx { ... } 所包裹的内容为引用，其定义来自于 suniv.dtsi (suniv系列设备通用的定义)
     - compatible 属性，将与驱动源码中的 compatible 定义对应，进行识别选择；
     - 设备树各部分的编写，可参考 :menuselection:`linux --> Documentation --> devicetree --> bindings` 下各个模组
-    - 设备树整体的详细介绍，请参考 `Device_Tree <https://elinux.org/Device_Tree_Reference>`_ ， `zero文档 <http://zero.lichee.pro/%E9%A9%B1%E5%8A%A8/Device_Tree_Intro.html>`_中也有较为详细的描述；
+    - 设备树整体的详细介绍，请参考 `Device_Tree <https://elinux.org/Device_Tree_Reference>`_ ， `zero文档 <http://zero.lichee.pro/%E9%A9%B1%E5%8A%A8/Device_Tree_Intro.html>`_ 中也有较为详细的描述；
 
 修改设备树中 LCD 配置
 -------------------------------
@@ -61,11 +61,11 @@ Nano的设备树在源码的 :menuselection:`linux --> arch --> arm --> boot -->
 .. code-block:: bash
     :caption: 在suniv-f1c100s-licheepi-nano.dts中添加引用
 
-    // 首先要添加的头文件：
+    /* 首先要添加的头文件： */
     #include <dt-bindings/input/input.h>
     #include <dt-bindings/interrupt-controller/irq.h>
 
-    // 添加引用
+    /* 添加引用 */
     &i2c0 {
         pinctrl-0 = <&i2c0_pins>;
         pinctrl-names = "default";
@@ -80,6 +80,7 @@ Nano的设备树在源码的 :menuselection:`linux --> arch --> arm --> boot -->
             pinctrl-0 = <&ts_reset_pin>;
             irq-gpios = <&pio 4 10 GPIO_ACTIVE_HIGH>; /* (PE10) */
             reset-gpios = <&pio 4 9 GPIO_ACTIVE_HIGH>; /* RST (PE9) */
+            /* touchscreen-swapped-x-y */
         };
     }; 
 

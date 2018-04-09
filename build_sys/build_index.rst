@@ -8,8 +8,12 @@ TF卡分区
 
 在前文我们已经成功构建了 bootloader，我们接下来需要放进TF卡的内容有：
 
-.. centered:: 第一分区： boot.scr  suniv-f1c100s-licheepi-nano.dtb  zImage
-.. centered:: 第二分区： 根文件系统内容
+第一分区： 
+    - boot.scr  
+    - zImage
+    - suniv-f1c100s-licheepi-nano.dtb
+第二分区： 
+    - 根文件系统内容
 
 在TF卡上构建系统之前，我们需要将TF卡进行分区与格式化；
 
