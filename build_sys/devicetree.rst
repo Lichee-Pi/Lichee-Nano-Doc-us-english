@@ -36,21 +36,21 @@ Nano的设备树在源码的 :menuselection:`linux --> arch --> arm --> boot -->
     leds {
 		compatible = "gpio-leds";
 
-			blue_led {
-				label = "licheepi:blue:usr";
-				gpios = <&pio 4 4 GPIO_ACTIVE_LOW>; /* PE4 */
-			};
+		blue_led {
+			label = "licheepi:blue:usr";
+			gpios = <&pio 4 4 GPIO_ACTIVE_LOW>; /* PE4 */
+		};
 
-			green_led {
-				label = "licheepi:green:usr";
-				gpios = <&pio 4 5 GPIO_ACTIVE_LOW>; /* PE5 */
-				default-state = "on";
-			};
+		green_led {
+			label = "licheepi:green:usr";
+			gpios = <&pio 4 5 GPIO_ACTIVE_LOW>; /* PE5 */
+			default-state = "on";
+		};
 
-			red_led {
-				label = "licheepi:red:usr";
-				gpios = <&pio 5 6 GPIO_ACTIVE_LOW>; /* PE6 */
-			};
+		red_led {
+			label = "licheepi:red:usr";
+			gpios = <&pio 5 6 GPIO_ACTIVE_LOW>; /* PE6 */
+		};
 	};
 
 添加电容触摸屏的支持
