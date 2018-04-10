@@ -80,9 +80,9 @@ Nano的设备树在源码的 :menuselection:`linux --> arch --> arm --> boot -->
     // 在pio节点下，添加i2c引脚定义
 
     i2c0_pins: i2c0 {
-				pins = "PE11", "PE12";
-				function = "i2c0";
-			};
+			pins = "PE11", "PE12";
+			function = "i2c0";
+		};
 
 .. code-block:: bash
     :caption: 在suniv-f1c100s-licheepi-nano.dts中添加引用

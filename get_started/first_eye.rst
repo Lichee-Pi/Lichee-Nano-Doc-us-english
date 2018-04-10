@@ -102,9 +102,11 @@ Nano 手册资料
 
 国内下载： 
 
-    百度云盘： https://pan.baidu.com/s/1smzuGS9
+    Nano 数据手册: http://odfef978i.bkt.clouddn.com/Nano%20F600%20User%20Manual.pdf
 
-    原理图：http://odfef978i.bkt.clouddn.com/Lichee_nano.pdf
+    原理图： http://odfef978i.bkt.clouddn.com/Lichee_nano.pdf
+
+    百度云盘资料包： https://pan.baidu.com/s/1smzuGS9
 
     RT-Thread SDK : https://github.com/RT-Thread/rt-thread
 
