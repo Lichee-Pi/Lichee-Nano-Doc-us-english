@@ -27,6 +27,32 @@ Nano的设备树在源码的 :menuselection:`linux --> arch --> arm --> boot -->
 
     :menuselection:`linux --> drivers --> gpu --> drm --> panel` 下有许多屏幕的配置，可挑选合适的进行配置；
 
+添加底板上的 RGB LED 节点配置
+-------------------------------
+
+.. code-block:: bash
+   :caption: / { } 所包裹的根节点目录下进行添加
+
+    leds {
+		compatible = "gpio-leds";
+
+			blue_led {
+				label = "licheepi:blue:usr";
+				gpios = <&pio 4 4 GPIO_ACTIVE_LOW>; /* PE4 */
+			};
+
+			green_led {
+				label = "licheepi:green:usr";
+				gpios = <&pio 4 5 GPIO_ACTIVE_LOW>; /* PE5 */
+				default-state = "on";
+			};
+
+			red_led {
+				label = "licheepi:red:usr";
+				gpios = <&pio 5 6 GPIO_ACTIVE_LOW>; /* PE6 */
+			};
+	};
+
 添加电容触摸屏的支持
 ------------------------------
 
