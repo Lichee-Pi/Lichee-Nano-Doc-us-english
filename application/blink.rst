@@ -59,3 +59,6 @@
         devmem 0x01C20890 32 0x77117655
         sleep 0.5
     done 
+
+
+欢迎到 `模组使用交流帖 <http://bbs.lichee.pro/d/24-->`_ 提问或分享经验。

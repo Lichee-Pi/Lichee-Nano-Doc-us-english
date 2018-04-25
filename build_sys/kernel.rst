@@ -41,3 +41,5 @@ git拉取有时速度很慢，建议做如下配置：
     make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- -j4    #请自行修改编译线程数
 
 生成的 zImage 在 :menuselection:`arch --> arm --> boot` 目录下；将其放入第一分区。
+
+对于本节内容，如有疑问，欢迎到 `主线linux 编译交流帖 <http://bbs.lichee.pro/d/22-linux>`_ 提问或分享经验。

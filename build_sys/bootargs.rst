@@ -55,3 +55,5 @@ boot.scr 由 boot.cmd 生成，此处新建一个 boot.cmd 文件，并写入以
     ``mkimage -C none -A arm -T script -d boot.cmd boot.scr``
 
 最后将其放入第一分区
+
+对于本节内容，如有疑问，欢迎到 `Bootloader 与 RTOS 使用交流帖 <http://bbs.lichee.pro/d/21-bootloader-rtos>`_ 提问或分享经验。

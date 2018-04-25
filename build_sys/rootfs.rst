@@ -92,3 +92,5 @@ buildroot中可以方便地加入第三方软件包（其实已经内置了很�
 另：检查 rootfs文件下的 /etc/inittab 是否已有以下声明：
 
     ``ttyS0::respawn:/sbin/getty -L ttyS0 115200 vt100 # GENERIC_SERIAL    // 串口登录使能`` 
+
+对于本节内容，如有疑问，欢迎到 `根文件系统编译交流帖 <http://bbs.lichee.pro/d/27-->`_ 提问或分享经验。

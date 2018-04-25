@@ -18,6 +18,8 @@
 
     - ubuntu 16.04 LTS 64位
 
+对于本节内容，如有疑问，欢迎到 `Bootloader 与 RTOS 使用交流帖 <http://bbs.lichee.pro/d/21-bootloader-rtos>`_ 提问或分享经验。
+
 u-boot 初体验
 -----------------------------
 
