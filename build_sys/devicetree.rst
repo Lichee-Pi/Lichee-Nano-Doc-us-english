@@ -131,4 +131,6 @@ Nano的设备树在源码的 :menuselection:`linux --> arch --> arm --> boot -->
 
 生成的 dtb文件 在 dts同级目录下，将其放入 TF卡第一分区。
 
-对于本节内容，如有疑问，欢迎到 `主线linux 编译交流帖 <http://bbs.lichee.pro/d/22-linux>`_ 提问或分享经验。
+.. admonition:: 交流与答疑
+
+    对于本节内容，如有疑问，欢迎到 `主线linux 编译交流帖 <http://bbs.lichee.pro/d/22-linux>`_ 提问或分享经验。

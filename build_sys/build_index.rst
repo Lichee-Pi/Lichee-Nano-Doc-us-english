@@ -35,5 +35,6 @@ TF卡分区
 
 后文将对各部分内容的构建进行详细描述；
 
+.. admonition:: 交流与答疑
 
-对于本章内容，如有疑问，欢迎到 `荔枝派 Nano <http://bbs.lichee.pro/t/nano>`_ 提问或分享经验。
+    对于本章内容，如有疑问，欢迎到 `荔枝派 Nano <http://bbs.lichee.pro/t/nano>`_ 提问或分享经验。

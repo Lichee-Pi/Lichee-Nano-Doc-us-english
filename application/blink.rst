@@ -60,5 +60,6 @@
         sleep 0.5
     done 
 
+.. admonition:: 交流与答疑
 
-欢迎到 `模组使用交流帖 <http://bbs.lichee.pro/d/24-->`_ 提问或分享经验。
+    欢迎到 `模组使用交流帖 <http://bbs.lichee.pro/d/24-->`_ 提问或分享经验。

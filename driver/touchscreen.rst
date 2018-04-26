@@ -90,4 +90,6 @@
 
 若再测试时，发现xy轴输出互相调换了，请添加或去掉gt911节点下的 *touchscreen-swapped-x-y* 属性
 
-对于本节内容，如有疑问，欢迎到 `模组使用交流帖 <http://bbs.lichee.pro/d/24-->`_ 提问或分享经验。
+.. admonition:: 交流与答疑
+
+    对于本节内容，如有疑问，欢迎到 `模组使用交流帖 <http://bbs.lichee.pro/d/24-->`_ 提问或分享经验。

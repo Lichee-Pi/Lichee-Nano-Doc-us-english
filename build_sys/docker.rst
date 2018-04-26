@@ -86,5 +86,6 @@ docker下载安装
     # 根据 容器ID 进行停止
     docker stop xxx-CONTAINER-ID-xxx
 
+.. admonition:: 交流与答疑
 
-对于本节内容，如有疑问，欢迎到 `Docker 使用与配置交流帖 <http://bbs.lichee.pro/d/23-docker>`_ 提问或分享经验。
+    对于本节内容，如有疑问，欢迎到 `Docker 使用与配置交流帖 <http://bbs.lichee.pro/d/23-docker>`_ 提问或分享经验。
