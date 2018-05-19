@@ -22,12 +22,12 @@
 
 在flash内容为空的情况下（fel模式下的一种情况）进行烧录时，通过micro-usb数据线将Nano与电脑连接，执行
 
-    ``sudo sunxi-fel -p spiflash-write 0 Your-Flash-BIN``
+``sudo sunxi-fel -p spiflash-write 0 Your-Flash-BIN``
 
 若flash中已有系统，可通过：
 
-    1. 短接 1、4 两脚，重新上电，上电后松开短接，即可重新进入fel模式，进行再次下载
-    2. 在启动到内核前，回车进入uboot，执行 ``sf probe 0;sf erase 0 0x100000;reset``即可重新进入fel模式
+1. 短接 1、4 两脚，重新上电，上电后松开短接，即可重新进入fel模式，进行再次下载
+2. 在启动到内核前，回车进入uboot，执行 ``sf probe 0;sf erase 0 0x100000;reset``即可重新进入fel模式
 
 ## 一键烧录镜像(win环境---TF卡启动)
 
