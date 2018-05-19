@@ -87,6 +87,7 @@
    :caption: 系统适配篇
 
    总述 <build_sys/build_index>
+   镜像包一键烧录 <build_sys/onekey>
    docker快速搭建环境 <build_sys/docker>
    uboot传递参数 <build_sys/bootargs>
    主线Linux编译 <build_sys/kernel>

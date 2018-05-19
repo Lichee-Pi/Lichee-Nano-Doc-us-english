@@ -30,7 +30,7 @@ TF卡分区
 
 具体分区操作，可参考github上的 `write_all.sh <https://github.com/Zepan/ilichee/tree/master/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E9%95%9C%E5%83%8F%E7%83%A7%E5%86%99>`_ 脚本
 
-.. tip:: 稍后将会发布 Nano镜像包，内含已编译好的固件，一条命令直接跳过编译，解决烧录问题...
+.. tip:: Nano一键快速烧录镜像包地址为： https://pan.baidu.com/s/1smzuGS9 ，便于快速验证，无需分区操作 ...
 
 
 后文将对各部分内容的构建进行详细描述；
