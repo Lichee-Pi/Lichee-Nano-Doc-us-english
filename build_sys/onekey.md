@@ -31,7 +31,7 @@
 
 ## 一键烧录镜像(win环境---TF卡启动)
 
-使用软件 **win32disk** 进行一键烧录，可到 `此处 <http://www.onlinedown.net/soft/110173.htm>`_下载;
+使用软件 **win32disk** 进行一键烧录，可到 [此处](http://www.onlinedown.net/soft/110173.html) 下载;
 
 ## 脚本的使用
 
