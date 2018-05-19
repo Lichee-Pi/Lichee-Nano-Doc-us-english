@@ -93,6 +93,7 @@
    主线Linux编译 <build_sys/kernel>
    设备树添加节点 <build_sys/devicetree>
    根文件系统编译 <build_sys/rootfs>
+   SPI-Flash 系统编译 <build_sys/build_flash>
 
 .. toctree::
    :maxdepth: 2
