@@ -1,8 +1,8 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
@@ -27,24 +27,17 @@
   
 
   
-  
     <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="genindex.html"/>
-        <link rel="search" title="Search" href="#"/>
-    <link rel="top" title="荔枝派Nano 全流程指南  documentation" href="index.html"/> 
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="#" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
@@ -61,7 +54,7 @@
 
           
             
-            <img src="_static/icon2.png" class="logo" />
+            <img src="_static/icon2.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -106,9 +99,15 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="driver/touchscreen.html">电容触摸屏适配</a></li>
 </ul>
+<p class="caption"><span class="caption-text">从挖坑到填坑篇</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="step_by_step/one_openbox.html">开箱介绍</a></li>
+<li class="toctree-l1"><a class="reference internal" href="step_by_step/two_sunxi-tools.html">编译使用sunxi-tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="step_by_step/three_uboot.html">编译测试uboot</a></li>
+<li class="toctree-l1"><a class="reference internal" href="step_by_step/four_linux.html">编译测试linux</a></li>
+</ul>
 <p class="caption"><span class="caption-text">应用开发篇</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="application/blink.html">一起来点灯</a></li>
 <li class="toctree-l1"><a class="reference internal" href="application/littlevgl.html">littlevGL的使用</a></li>
 </ul>
 <p class="caption"><span class="caption-text">贡献投稿篇</span></p>
@@ -129,7 +128,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+      <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="index.html">荔枝派Nano 全流程指南</a>
@@ -137,9 +136,10 @@
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
 
@@ -167,6 +167,8 @@
     
       <li class="wy-breadcrumbs-aside">
         
+            
+        
       </li>
     
   </ul>
@@ -192,9 +194,7 @@
   </div>
 
            </div>
-           <div class="articleComments">
-            
-           </div>
+           
           </div>
           <footer>
   
@@ -207,7 +207,7 @@
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 <meta http-equiv="Cache-Control" max-age=7200 />
 
 <!-- <a href="https://github.com/Lichee-Pi">
@@ -294,6 +294,7 @@
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
             VERSION:'',
+            LANGUAGE:'zh-CN',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,
@@ -312,14 +313,11 @@
     <script type="text/javascript" src="_static/js/theme.js"></script>
   
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
-  
   <script type="text/javascript">
     jQuery(function() { Search.loadIndex("searchindex.js"); });
   </script>
