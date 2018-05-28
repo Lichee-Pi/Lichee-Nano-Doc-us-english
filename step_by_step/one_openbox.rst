@@ -63,14 +63,21 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - 使用一键镜像包构建启动固件并下载到spiflash或tf卡
-  教程地址:../build_sys/onekey.html
+
+  教程地址: `一键烧录镜像包 <http://nano.lichee.pro/build_sys/onekey.html>`_
   固件下载完后是使用杜邦线连接nano和电脑,
   在终端输入sudo minicom -s,配置好串口参数(115200 8N1).
+
 - 正常运行的打印截图
-.. figure:: ../_static/step_by_step/console_run_is_ok.jpg
+
+.. figure:: ../_static/step_by_step/console_run_is_ok.png
+
    :align: center
    :width: 500px
- - 正常运行的液晶显示
+
+- 正常运行的液晶显示
+
  .. figure:: ../_static/step_by_step/lcd_run_is_ok.jpg
+ 
     :align: center
     :width: 500px
