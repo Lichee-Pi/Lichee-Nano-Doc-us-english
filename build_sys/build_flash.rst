@@ -124,7 +124,11 @@ dts 修改
 
 勾选 File systems ‣ Miscellaneous filesystems ‣ Journalling Flash File System v2 (JFFS2) support
 
-![jffs2](https://box.kancloud.cn/3be64c60667c0aa3a906f095171d1fda_1396x746.png)
+.. figure:: https://box.kancloud.cn/3be64c60667c0aa3a906f095171d1fda_1396x746.png
+   :align: center
+   :width: 500px
+
+   jffs2
 
 修改源码下的 ./drivers/mtd/spi-nor.c
 
