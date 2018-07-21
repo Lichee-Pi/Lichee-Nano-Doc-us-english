@@ -126,7 +126,7 @@ dts 修改
 
 .. figure:: https://box.kancloud.cn/3be64c60667c0aa3a906f095171d1fda_1396x746.png
    :align: center
-   :width: 500px
+   :width: 800px
 
    jffs2
 
@@ -340,5 +340,5 @@ bin 烧录
     Initializing random number generator... done.
     [   12.568573] mmc0: card 0001 removed
 
-Welcome to Lichee Pi
-Lichee login: 
+    Welcome to Lichee Pi
+    Lichee login: 
