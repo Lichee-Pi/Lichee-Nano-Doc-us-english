@@ -7,6 +7,17 @@
 镜像下载地址：
     https://pan.baidu.com/s/1smzuGS9
 ```
+## 一键烧录镜像命名规则
+
+xx_xxx_xxxx.***
+
+xx:适用此镜像的pi的名称
+
+xxx:这个镜像是下载到什么介质上
+
+xxxx:这个镜像适用于什么分辨率的lcd上
+
+***:bin一般是下载到flash上的，dd代表这个镜像使用dd打包。
 
 ## 一键烧录镜像(Linux环境---TF卡启动)
 
