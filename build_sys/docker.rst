@@ -54,6 +54,11 @@ docker下载安装
 安装荔枝派开发镜像
 -----------------------------------------
 
+可通过两种方式导入lihcee-nano编译环境镜像
+
+1.通过百度网盘下载并导入lihcee-nano编译环境镜像
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 首先通过百度网盘下载 `docker镜像 <https://pan.baidu.com/s/1aYcGfzyz-g4CbxGSsVREGQ>`_ ；
 
 再将镜像加载到 docker：
@@ -62,6 +67,16 @@ docker下载安装
 
     gunzip nano.tar.gz
     docker import nano.tar
+
+2.通过docker官方仓库拉取lihcee-nano编译环境镜像
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: bash
+
+    docker pull zepan/licheepi-nano
+
+3.镜像使用
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     # 载入镜像后查看镜像ID
     docker images
