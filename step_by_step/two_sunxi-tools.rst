@@ -13,6 +13,10 @@
 2. 编译sunxi-tools
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+- 安装sunxi-tools依赖库
+
+  ``sudo apt install libz libusb-1.0-0-dev``
+  
 - 编译
 
   ``make``
