@@ -33,7 +33,7 @@ u-boot 初体验
    # 此处为获取7.2.1版本，您可获取其他版本或者通过链接直接下载
    wget http://releases.linaro.org/components/toolchain/binaries/7.2-2017.11/arm-linux-gnueabi/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi.tar.xz
    
-   tar -xzf gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi.tar.xz
+   tar -vxJf gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi.tar.xz
    sudo cp -r ./gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi /opt/
 
    sudo vim /etc/bash.bashrc
