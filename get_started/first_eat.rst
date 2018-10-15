@@ -235,7 +235,7 @@ xboot无需额外配置直接上手！
     
 .. code-block:: bash
 
-    sunxi-fel -p spiflash-write 0 xboot.bin``
+    sunxi-fel -p spiflash-write 0 xboot.bin
 
 .. figure:: ../_static/get_started/xboot1.jpg
    :align: center
@@ -394,8 +394,8 @@ PC操作系统         Linux/MacOS
 
 .. caution:: 问题待收集...
 
-如您有任何疑问，或有想要荔枝派提供某个方面的教程，请在下方评论区留言；
+如您有任何疑问，或有想要荔枝派提供某个方面的教程，请在 `荔枝派社区 <bbs.lichee.pro>`_ 留言；
 
-荔枝派2000人QQ交流大群：5738323100
+荔枝派3000人QQ交流大群：826307240
 
 荔枝派Telegram电报群：`Lichee Pi <https://t.me/joinchat/HH5CKkoLTnnxtdIl2U1Psg>`_
