@@ -38,7 +38,7 @@ LittlevGL 工程配置
 将此三配置文件从模块文件夹中复制到项目文件夹，并将其命名为
 
     - lv_conf.h
-    - lv_drv.h
+    - lv_drv_conf.h
     - lv_ex_conf.h
 
 添加 main.c 文件

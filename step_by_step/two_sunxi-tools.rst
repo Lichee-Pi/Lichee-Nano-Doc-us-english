@@ -49,10 +49,10 @@
   ``sudo sunxi-fel exec 地址``
 
 - 显示spiflash的信息
-  ``sudo sunxi-fel spiflash info``
+  ``sudo sunxi-fel spiflash-info``
 
 - 读取spiflash指定地址的数据并写入到文件
-  ``sudo sunxi-fel spiflash read 地址 长度 存放数据的文件路径``
+  ``sudo sunxi-fel spiflash-read 地址 长度 存放数据的文件路径``
 
 - 写入指定文件的指定长度的内容到spiflash的指定地址
-  ``sudo sunxi-fel spiflash write 地址 长度 存放数据的文件路径``
+  ``sudo sunxi-fel spiflash-write 地址 长度 存放数据的文件路径``
