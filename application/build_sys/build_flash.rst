@@ -21,9 +21,9 @@ spi-flash 启动适配
     +--------+---------------+----------+------------------------------+
     |mtd1    |64KB (0x10000) |dtb文件   |0x0100000-0x0110000 : “dtb”   |
     +--------+---------------+----------+------------------------------+
-    |mtd2    |4MB (0x400000) |linux内核 |0x0110000-0x0510000 : “kernel”|
+    |mtd2    |4MB+64KB (0x410000) |linux内核 |0x0110000-0x0520000 : “kernel”|
     +--------+---------------+----------+------------------------------+
-    |mtd3    |剩余 (0xAF0000)|根文件系统|0x0510000-0x1000000 : “rootfs”|
+    |mtd3    |剩余 (0xAE0000)|根文件系统|0x0520000-0x1000000 : “rootfs”|
     +--------+---------------+----------+------------------------------+
 
 uboot 修改
@@ -41,14 +41,14 @@ bootcmd修改
 
     #define CONFIG_BOOTCOMMAND   "sf probe 0; "                           \    
                                 "sf read 0x80C00000 0x100000 0x4000; "  \
-                                "sf read 0x80008000 0x110000 0x400000; " \
+                                "sf read 0x80008000 0x110000 0x410000; " \
                                 "bootz 0x80008000 - 0x80C00000"
 
 按照行数解释如下：
 
     1. 挂载 spi-flash
-    2. 读取 spi-flash 1M（0x100000）位置 64KB(0x4000)大小的 dtb 到地址 0x80C00000
-    3. 读取 spi-flash 1M+64K（0x110000）位置 4MB(0x400000)大小的 zImage 到地址 0x80008000
+    2. 读取 spi-flash 1M（0x100000）位置 16KB(0x4000)大小的 dtb 到地址 0x80C00000
+    3. 读取 spi-flash 1M+64K（0x110000）位置 4MB+64K (0x410000)大小的 zImage 到地址 0x80008000
     4. 从 0x80008000 启动内核，从 0x80C00000 读取设备树配置
 
 回到 uboot 源码一级目录，``make ARCH=arm menuconfig`` 进入TUI配置；
@@ -103,13 +103,13 @@ dts 修改
 
                 partition@110000 {
                     label = "kernel";
-                    reg = <0x110000 0x400000>;
+                    reg = <0x110000 0x410000>;
                     read-only;
                 };
 
                 partition@510000 {
                     label = "rootfs";
-                    reg = <0x510000 0xAF0000>;
+                    reg = <0x520000 0xAE0000>;
                 };
             };
         };
@@ -135,6 +135,19 @@ dts 修改
     { "w25q128", INFO(0xef4018, 0, 64 * 1024, 256, SECT_4K) },
     // 修改为 （不使用sector，使用块擦除）：
     { "w25q128", INFO(0xef4018, 0, 64 * 1024, 256, 0) },
+
+**检查 SPI 驱动是否正确**
+
+进入 Device Drivers ‣ SPI support，将 Allwinner A10 SoCs SPI controller 取消勾选，然后勾上下面的 Allwinner A31 SPI Controller
+
+内核需要开启 **mtdblock** 的支持，device drivers ‣ Memory Technology Device (MTD) support ‣ Caching block device access to MTD devices
+
+关闭 **initramfs/initrd** 的支持
+
+::
+
+    General setup --->
+    [ ] Initial RAM filesystem and RAM disk (initramfs/initrd) support
 
 二进制bin 打包
 -------------------------------------
