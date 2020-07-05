@@ -28,7 +28,7 @@ git拉取有时速度很慢，建议做如下配置：
 配置
 --------------------------------
 
-下载 `.config <http://odfef978i.bkt.clouddn.com/.config>`_ 文件，放入源码主目录进行替换 (若下载时文件名有变，请重命名回 .config );
+下载 `.config <http://dl.sipeed.com/LICHEE/Nano/SDK/config>`_ 文件，放入源码主目录进行替换 (若下载时文件名有变，请重命名回 .config );
 
 进行编译 
 --------------------------------
