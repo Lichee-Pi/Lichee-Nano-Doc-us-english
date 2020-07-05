@@ -33,7 +33,7 @@ buildroot中可以方便地加入第三方软件包（其实已经内置了很�
 
 此处为免去另外配置工具链的步骤，使用了 buildroot 自动下载工具链执行的选项；
 
-同内核编译一样，请下载 buildroot 的 `.config <http://odfef978i.bkt.clouddn.com/buildroot.config>`_ 文件，重命名为 .config 后放到 buildroot目录下；
+同内核编译一样，请下载 buildroot 的 `.config <https://fdvad021asfd8q.oss-cn-hangzhou.aliyuncs.com/migrate/buildroot.config>`_ 文件，重命名为 .config 后放到 buildroot目录下；
 
 .. tip:: 若编译时，buildroot下载软件包速度太慢，请下载 `dl.zip <https://pan.baidu.com/s/1_tBdX9K7fOkH9JdXZ_MdiQ>`_ ，将其中的软件包解压至 :menuselection:`buildroot --> dl` 下；
 
